@@ -1,0 +1,155 @@
+section {
+  width: 1200px;
+  margin: auto;
+}
+
+.title {
+  width: 720px;
+  margin: 40px auto;
+}
+
+.title h2 {
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.title h4 {
+  font-size: 20px;
+  text-align: left;
+  line-height: 28px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  padding: 40px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-bottom: 2px;
+  border-color: gray;
+  border-style: solid;
+}
+
+.t-name {
+  margin-left: 20px;
+}
+.t-name p {
+  margin-bottom: 24px;
+}
+
+.t-name h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+ol,
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.5rem;
+}
+
+.icon {
+  padding: 0.5rem;
+  color: gray;
+}
+
+.card-item {
+  width: 500px;
+  margin: 15px;
+  /* border: 1px solid red; */
+  /* padding: 20px; */
+}
+
+.card-content {
+  padding: 10px 10px;
+}
+
+.card-content p {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.others {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.others p {
+  flex-shrink: 0;
+}
+
+.others hr {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  flex-shrink: 1;
+  align-self: self-end;
+}
+
+.card-footer a {
+  color: red;
+  display: inline-block;
+  border: 1px solid red;
+  padding: 0.25rem 0.75rem;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.courses-title h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.courses-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem auto 3rem; /*上 右左 下*/
+  /* border: 1px solid red; */
+}
+
+.course-card {
+  width: 380px;
+}
+
+.course-content {
+  padding: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.course-month {
+  border-style: solid;
+  border-bottom: 1px;
+  border-color: gray;
+}
+.course-month span {
+  display: inline-block;
+  color: gray;
+  border: 1px solid gray;
+  padding: 5px;
+}
+.course-more {
+  width: 100px;
+  margin: auto;
+  border: 1px solid red;
+  text-align: center;
+  padding: 10px;
+}
+
+.course-more a {
+  color: red;
+  text-decoration: none;
+}
