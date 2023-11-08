@@ -461,7 +461,7 @@ a.hover-line:hover {
 }
 
 .section-learn {
-  padding: 80px 24px;
+  padding: 80px 72px;
   background-color: #f9fafb;
 }
 
@@ -494,34 +494,34 @@ a.hover-line:hover {
   justify-content: space-between;
 }
 .section-learn .card {
-  width: 560px;
+  width: 512px;
   background-color: #fff;
   box-shadow: 0px 10px 10px -3px rgba(113, 128, 150, 0.1);
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 8px 8px;
 }
 
 .section-learn .card:first-child .card-img {
   margin: auto;
-  padding: 60px 120px;
+  padding: 60px 100px;
   background-image: linear-gradient(
       rgba(43, 43, 44, 0.5),
       rgba(32, 32, 32, 0.5)
     ),
     url("https://65487b0d86d5725a3158767e--5xtraining.netlify.app/_next/static/images/learning-im_coding_it-2e61e20cb43462295664b6dcfe31b74a.png");
   background-size: cover;
-  border-radius: 5px 5px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 
 .section-learn .card:nth-child(2) .card-img {
   margin: auto;
-  padding: 60px 120px;
+  padding: 60px 100px;
   background-image: linear-gradient(
       rgba(43, 43, 44, 0.5),
       rgba(32, 32, 32, 0.5)
     ),
     url("https://65487b0d86d5725a3158767e--5xtraining.netlify.app/_next/static/images/learning-astro_camp-64eb918a606cc2d3b75bae289447aee8.png");
   background-size: cover;
-  border-radius: 5px 5px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 
 .section-learn .card-img h3 {
@@ -552,4 +552,44 @@ a.hover-line:hover {
   text-align: center;
   line-height: 1.5;
   padding: 10px;
+}
+
+.section-5x {
+  padding: 80px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.section-5x-h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.section-5x-h2::after {
+  display: block;
+  content: "";
+  width: 40px;
+  padding-bottom: 8px;
+  margin: 0 auto;
+  border-bottom: 2px solid red;
+}
+.section-articles {
+  text-align: center;
+  padding: 0 24px;
+}
+.section-articles-h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.section-articles-h2::after {
+  display: block;
+  content: "";
+  width: 40px;
+  padding-bottom: 8px;
+  margin: 0 auto;
+  border-bottom: 2px solid red;
+}
+
+.section-articles .card {
 }
